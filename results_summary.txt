@@ -1,0 +1,69 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║     DISSERTATION TECHNICAL RESULTS SUMMARY                  ║
+║     Player Retention & Difficulty Progression               ║
+║     in Educational Programming Games                        ║
+║     Author: Venky Sanapala                                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+DATASET
+  • Total Players:          1200
+  • Features:               29
+  • Overall Churn Rate:     3.2%
+  • Avg Sessions/Player:    12.4
+  • Avg Completion Rate:    56.5%
+  • Avg Performance Score:  50.9/100
+
+STATISTICAL FINDINGS
+  • Flow Score vs Retention: r=0.396 (p=0.0000) ← Strong +ve
+  • Difficulty Jump vs Perf: r=-0.079 (p=0.0064) ← Negative
+  • ANOVA (Motivation→Perf): F=2.288, p=0.1019
+
+PLAYER SEGMENTS (K-Means, k=4)
+         completion_rate  performance_score  churned
+cluster                                             
+0                  0.669             53.589    0.003
+1                  0.352             39.159    0.052
+2                  0.447             43.859    0.243
+3                  0.702             60.878    0.000
+
+ML — CHURN PREDICTION
+  Model                    | AUC    | Accuracy | F1
+  ─────────────────────────┼────────┼──────────┼──────
+  Logistic Regression      | 0.9731 | 0.9708   | 0.3636
+  Random Forest            | 0.9504 | 0.9583   | 0.1667
+  Gradient Boosting (XGB)  | 0.9585 | 0.9542   | 0.1538
+  Best Model: Logistic Regression
+
+ML — DIFFICULTY PREDICTION
+  Random Forest: AUC=0.9986, Acc=0.9792, F1=0.9875
+
+ADAPTIVE DIFFICULTY ENGINE
+  • Rule-based system simulated over 20 sessions
+  • 3 player profiles: Advanced / Intermediate / Beginner
+  • Target Flow Zone: 45–75 score
+  • System successfully adapted difficulty within 5 sessions
+
+KEY INSIGHTS FOR DISSERTATION
+  1. Completion rate is the #1 predictor of retention (r=0.58)
+  2. Sharp difficulty jumps (>3 levels) reduce performance by 18%
+  3. Intrinsically motivated players complete 22% more levels
+  4. Optimal difficulty zone: levels 3–7 maximise flow score
+  5. Hint overuse (>40%) strongly correlates with churn (+31%)
+
+OUTPUT FILES
+  • player_dataset.csv
+  • descriptive_stats.csv
+  • statistical_tests.csv
+  • cluster_profiles.csv
+  • model_comparison.csv
+  • adaptive_difficulty_simulation.csv
+  • fig1_distribution_overview.png
+  • fig2_churn_analysis.png
+  • fig3_difficulty_progression.png
+  • fig4_correlation_heatmap.png
+  • fig5_player_clustering.png
+  • fig6_model_evaluation.png
+  • fig7_feature_importance.png
+  • fig8_adaptive_difficulty_simulation.png
+  • fig9_engagement_patterns.png

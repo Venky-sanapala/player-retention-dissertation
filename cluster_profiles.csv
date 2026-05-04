@@ -1,0 +1,5 @@
+cluster,completion_rate,performance_score,flow_score,avg_attempts_per_level,hint_rate,sessions_played,churned
+0,0.669,53.589,74.902,4.696,0.129,13.59,0.003
+1,0.352,39.159,62.16,3.828,0.099,12.419,0.052
+2,0.447,43.859,44.467,4.463,0.757,4.614,0.243
+3,0.702,60.878,81.576,2.851,0.07,12.749,0.0

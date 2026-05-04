@@ -1,0 +1,7 @@
+Feature,Retained Mean,Churned Mean,t-stat,p-value,Significant
+completion_rate,0.576,0.254,9.941,0.0,Yes
+performance_score,51.316,37.057,6.851,0.0,Yes
+flow_score,72.217,43.361,14.929,0.0,Yes
+avg_attempts_per_level,3.761,4.059,-1.171,0.2418,No
+sessions_played,12.5,9.368,3.19,0.0015,Yes
+streak_days,4.526,3.632,1.652,0.0989,No
