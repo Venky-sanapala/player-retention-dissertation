@@ -720,7 +720,7 @@ summary = f"""
 ║     DISSERTATION TECHNICAL RESULTS SUMMARY                  ║
 ║     Player Retention & Difficulty Progression               ║
 ║     in Educational Programming Games                        ║
-║     Author: Venky Sanapala                                  ║
+║     Author: Venkatesh Sanapala                                  ║
 ╚══════════════════════════════════════════════════════════════╝
 
 DATASET
