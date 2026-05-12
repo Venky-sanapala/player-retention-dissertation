@@ -1,7 +1,7 @@
 """
 Dissertation Technical Pipeline
 Topic: Player Retention and Difficulty Progression in Educational Programming Games
-Author: Venky Sanapala
+Author: Venkatesh Sanapala
 """
 
 import pandas as pd
