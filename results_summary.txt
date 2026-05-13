@@ -1,9 +1,9 @@
 
 ╔══════════════════════════════════════════════════════════════╗
-║     DISSERTATION TECHNICAL RESULTS SUMMARY                  ║
-║     Player Retention & Difficulty Progression               ║
-║     in Educational Programming Games                        ║
-║     Author: Venkatesh Sanapala                                  ║
+║     DISSERTATION TECHNICAL RESULTS SUMMARY                   ║
+║     Player Retention & Difficulty Progression                ║
+║     in Educational Programming Games                         ║
+║     Author: Venkatesh Sanapala                               ║
 ╚══════════════════════════════════════════════════════════════╝
 
 DATASET
